@@ -11,7 +11,7 @@ dictionary = {
 
 }
 
-file_path = 'C:/Users/annem/source/repos/python does slimstampen/TextFile1.txt'
+file_path = '' #add file path to text file
 if os.path.exists(file_path):
     # Open the file and load the dictionary
     with open(file_path, 'r') as f:
